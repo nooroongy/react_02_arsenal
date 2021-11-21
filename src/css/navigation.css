@@ -1,0 +1,15 @@
+
+.header{
+    background: #f00000;
+    height: 67px;
+}
+
+.header-link-wrap{
+    position: absolute;
+    top: 34px;
+}
+
+.header-link{
+    margin-left: 20px;
+    color: white;
+}

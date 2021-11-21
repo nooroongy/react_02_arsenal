@@ -1,0 +1,50 @@
+.profile-wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 7vw;
+}
+
+.player-card-wrap{
+    border-top: 3px solid #f00000;
+    margin: 20px;
+    box-shadow: 0 0 7px 3px #00000017;
+    background: white;
+    display: grid;
+    grid-template-rows: 10fr 1fr 2fr 1fr;
+    grid-template-columns: 9fr 1fr;
+}
+
+.palyer-card-img{
+    width: 100%;
+    background: black;
+    grid-column: 1/3;
+}
+.palyer-card-first-name{
+    grid-row: 2/3;
+    font-size: 0.9em;
+    padding-left: 10px;
+    color: #7a7a7a;
+    font-weight: 500;
+}
+
+.palyer-card-name{
+    grid-row: 3/4;
+    font-size: 1.7em;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.palyer-card-country{
+    grid-row: 4/5;
+    font-size: 0.7em;
+    padding-left: 10px;
+}
+
+.palyer-card-number{
+    grid-row: 2/5;
+    text-align: right;
+    padding-right: 12px;
+    font-size: 3.6em;
+    font-weight: 500;
+    color: #c3c3c3;
+}
